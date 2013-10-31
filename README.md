@@ -16,6 +16,11 @@ Con ella se comprueba la portabilidad de los desarrollos entre distintas platafo
 
 ---
 
+### Estado
+
+[![Build Status](https://travis-ci.org/alu0100537031/prct07.png?branch=master)](https://travis-ci.org/alu0100537031/prct07)
+
+
 Universidad de La Laguna  
 Escuela Técnica Superior de Ingeniería Informática  
 Lenguajes y Paradigmas de la Programación 2013-14
