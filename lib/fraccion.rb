@@ -1,5 +1,6 @@
 require "./lib/gcd.rb"
 class Fraccion
+  include Comparable # Libreria donde va acceder a los operadores de comparacion
   
   attr_reader :num, :denom # metodos de acceso (getter)
   
@@ -105,7 +106,12 @@ class Fraccion
     Fraccion.new(num-(denom*res),@denom*other.denom)
   end
 
- 
+  # método que contempla el uso del modulo comparable <, >, <= y >=
+  
+  def <=>(other)
+     self.to_f <=> other.to_f
+  end
+end
    
 
 
