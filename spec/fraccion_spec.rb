@@ -1,4 +1,3 @@
-#require './lib/fraccion.rb'
 require 'fraccion.rb'
 
 require 'rspec'
