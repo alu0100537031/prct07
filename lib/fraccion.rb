@@ -105,47 +105,7 @@ class Fraccion
     Fraccion.new(num-(denom*res),@denom*other.denom)
   end
 
-  # metodo para comprobar si una fraccion es menor que otra
-
-  def < (other)
-    if (self.to_f < other.to_f)
-       return true
-    else
-       return false
-    end
-  end
-
- # metodo para comprobar si una fraccion es mayor que otra
-
-  def > (other)
-    if (self.to_f > other.to_f)
-       return true
-    else
-       return false
-    end
-  end
-
- # metodo para comprobar si una fraccion es menor o igual a otra
-
-  def <= (other)
-    if (self.to_f <= other.to_f)
-       return true
-    else
-       return false
-    end
-  end
-
-  # metodo para comprobar si una fraccion es mayor o igual a otra
-
-  def >= (other)
-    if (self.to_f >= other.to_f)
-       return true
-    else
-       return false
-    end
-  end
-end
-
+ 
    
 
 
