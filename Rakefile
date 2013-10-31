@@ -3,7 +3,7 @@ $:.unshift File.dirname(__FILE__) + 'lib'
 require 'rspec/core/rake_task'
 RSpec::Core::RakeTask.new
 task :default => :spec
-
+=begin
 desc "Ejecutar las espectativas de la clase Fraccion"
 task :spec do
 	sh "rspec -I. spec/fraccion_spec.rb"
@@ -23,3 +23,4 @@ desc "Ejecutar con formato html"
 task :thtml do
 	sh "rspec -I. spec/fraccion_spec.rb --format html"
 end
+=end
