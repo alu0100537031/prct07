@@ -1,4 +1,4 @@
-require './lib/gcd.rb'
+require "./lib/gcd.rb"
 class Fraccion
   include Comparable # Libreria donde va acceder a los operadores de comparacion
   
