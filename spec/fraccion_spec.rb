@@ -1,7 +1,6 @@
 require './lib/fraccion.rb'
 
-require 'rspec'
- 
+
 describe Fraccion do
 	before :each do
 		@Frac1 = Fraccion.new(3, 2)
