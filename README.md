@@ -3,8 +3,8 @@ Práctica de Laboratorio #7. Travis: Intregacion Continua
 
 ## Componentes Del Grupo:
 
-Rushil Lakhani Lakhani
-Waldo Nazco Torres
+- Rushil Lakhani Lakhani
+- Waldo Nazco Torres
 
 
 
