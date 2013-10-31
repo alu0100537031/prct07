@@ -1,4 +1,6 @@
 require './lib/fraccion.rb'
+
+require 'rspec'
  
 describe Fraccion do
 	before :each do
