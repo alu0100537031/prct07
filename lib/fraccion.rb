@@ -109,6 +109,7 @@ class Fraccion
   # método que contempla el uso del modulo comparable <, >, <= y >=
   
   def <=>(other)
+     return nil unless other.instance_of? Fraccion
      self.to_f <=> other.to_f
   end
 end
